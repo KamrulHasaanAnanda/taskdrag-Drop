@@ -1,0 +1,84 @@
+.App {
+  margin: 20px;
+  height: 100vh;
+  /* text-align: center; */
+}
+
+.App .inputs {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.inputs input {
+  padding: 14px 100px;
+  border-radius: 5px;
+  font-size: 20px;
+  font-family: system-ui;
+  border: 1px solid black;
+  /* padding: 12px; */
+  /* color: white; */
+}
+
+.inputs button {
+  padding: 14px 30px;
+  background: #e91e63;
+  border: none;
+  color: white;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.todos {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 20px;
+}
+.todos .todo-1 {
+  width: 25%;
+  text-align: center;
+  border-radius: 5px;
+  /* height: 100%; */
+  background: black;
+  box-shadow: 1px 1px 5px 0px #9e9e9e;
+}
+
+.todo-1 h1 {
+  margin: 0;
+  padding: 6px 0px;
+  background: #673ab7;
+  color: white;
+  font-family: sans-serif;
+}
+
+.todo-1 .inside {
+  background: #673ab7;
+  box-shadow: 1px 1px 7px 2px white;
+
+  color: white;
+  margin: 20px;
+  border-radius: 5px;
+}
+
+.inside h2 {
+  /* background-color: red; */
+  margin-top: 10px;
+  font-size: 25px;
+  width: 80%;
+  border-radius: 5px;
+  cursor: pointer;
+  padding: 7px 0px;
+  font-weight: 600;
+  font-family: sans-serif;
+  margin: 0 auto;
+}
+
+.progressBackground {
+  background-color: #ff9800 !important;
+}
+
+.doneBackground {
+  background-color: #00bcd4 !important;
+}
